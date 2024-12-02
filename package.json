@@ -1,0 +1,31 @@
+{
+  "name": "caching-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "caching-proxy": "./src/server.js"
+  },
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "keywords": [
+    "CLI",
+    "Command Line Interface",
+    "Tool",
+    "Utility",
+    "Automation",
+    "yargs",
+    "Node.js",
+    "JavaScript"
+  ],
+  "author": "Ruchi Deo",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "express": "^4.21.1",
+    "node-cache": "^5.1.2",
+    "yargs": "^17.7.2"
+  }
+}
