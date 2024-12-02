@@ -11,7 +11,6 @@ The project also includes a client utility for testing the proxy's functionality
 - 🌐 **Dynamic URL Redirection**: Redirects users to specified URLs efficiently.
 - 🔧 **Customizable Configuration**: Use `.env` for environment-specific configurations.
 - 📦 **Built on Express.js**: Fast and robust server framework.
-- 📡 **Test Client Utility**: Quickly test the proxy with pre-defined commands.
 
 ## Installation
 
@@ -47,7 +46,7 @@ The project also includes a client utility for testing the proxy's functionality
   cache-proxy start  --port 4000 --origin "http://dummyjson.com/"
   ```
 - **Run Client**:
-  In other prompt if you don't want to visit the port where the server is running e.g. localhost:4000. Then, run the following command :
+ In another terminal, if you don't want to visit the port where the server is running (e.g., localhost:4000), run the following command:
   ```bash
   cd src
   node client.js --port 4000
